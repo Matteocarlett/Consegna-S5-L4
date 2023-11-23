@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+body {
+    background:#4a4949; 
+    font-family: 'Indie Flower';
+}
+    #container {
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+
+    .post-itY, .post-itG, .post-itV{
+        padding: 4rem;
+        margin-top: 2rem ;
+        font-size: 2rem;
+        font-weight: bold;
+        box-shadow:5px 6px 13px -4px #000000 ;
+        cursor: pointer;
+    }
+
+    p{
+        font-size: 1.1rem ;
+        margin: 1rem;
+        font-weight: normal;
+    }
+
+    .post-itY{
+        background-color: #F3F3BF ;
+        background: linear-gradient(0deg, rgba(173,173,116,1) 0%, rgba(243,243,191,1) 69%);
+        transform: rotate(-2deg);
+        transition-property: all;
+        transition-duration: 0.7s;
+    }
+
+    .post-itG{
+        background-color: #BCE3BE;
+        background: linear-gradient(0deg, rgba(80,143,83,1) -20%, rgba(188,227,190,1) 69%);
+        transform: rotate(8deg);
+        transition-property: all;
+        transition-duration: 0.7s;
+    }
+
+    .post-itV{
+        background-color: #C5C4EE;
+        background: linear-gradient(0deg, rgba(128,127,184,1) -10%, rgba(197,196,238,1) 69%);
+        transform: rotate(-5deg);
+        transition-property: all;
+        transition-duration: 0.7s;
+    }
+
+   #container :hover{
+        transform: scale(1.3);
+    }
+
+
+    
+
+
+
+
+
+
